@@ -11,6 +11,7 @@
   "scripts": {
     "build": "pnpm -r build",
     "test": "vitest run",
+    "test:authorized-autopilot": "node scripts/test-authorized-autopilot.mjs",
     "lint": "eslint . --max-warnings 0 && pnpm check:license && pnpm check:links",
     "check:license": "node scripts/check-license-boundary.mjs",
     "check:links": "node scripts/check-doc-links.mjs",
